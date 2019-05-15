@@ -15,7 +15,7 @@ app.set('port', process.env.PORT || 8080 );
 // These 'getters' are what fetch your pages
 
 app.get('/', function(req, res){
-    res.sendFile(__dirname + "index.html");
+    res.sendFile(__dirname + "/index.html");
 });
 
 // -------------- listener -------------- //
