@@ -4,21 +4,83 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: 50% 50%;
+}
+
+#nah{
+    color: white;
+}
+
+#central{
+    left: 50%;
+    text-align: center;
+}
+
+#central h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: #ef7d4c;
+}
+#central p{
+    font-size: 36px;
+}
+
 #Draggable1{
+    top: 20%;
+    left: 25%;
 }
 #Draggable2{
     -webkit-transform: rotate(2deg);
     -moz-transform: rotate(2deg);
+    left: 50%;
 }
 #Draggable3{
     -webkit-transform: none;
     -moz-transform: none;
     position: relative;
-    top: -5px;
+    top: 50%;
+    left: 15%;
+
 }
 #Draggable4{
     -webkit-transform: rotate(2deg);
     -moz-transform: rotate(2deg);
+    top: -10%;
+}
+#Draggable5{
+    -webkit-transform: none;
+    -moz-transform: none;
+    position: relative;
+}
+#Draggable6{
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    top: -80%;
+    left: 60%;
+}
+#Draggable7{
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    left: 25%;
+}
+#Draggable8{
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    top: -30%;
+    left: 50%;
+}
+#Draggable9{
+    top: 10%;
+    left: 10%;
+}
+#Draggable10{
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    top: -54%;
+    left: 50%;
 }
 
 .drag {
@@ -49,7 +111,7 @@ body{
   box-shadow: 0 0.25em 1em rgba(0,0,0,0.2);
 }
 
-div.container {
+div.containers {
   text-align: center;
   width: 100%;
 }
